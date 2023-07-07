@@ -10,8 +10,8 @@ use Data::Dumper;
 use IPC::Run qw(run);
 use String::Util qw(trim);
 
-my $jsonnet = '/home/lach/unqdev/chainql/target/release/chainql';
-my $polkadot = '/home/lach/unqdev/polkadot/target/release/polkadot';
+my $jsonnet = 'chainql';
+my $polkadot = 'polkadot';
 
 sub jsonnet_do {
 	my ($code, $tla, $tla_raw) = @_;
